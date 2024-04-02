@@ -1,0 +1,21 @@
+.whiteboard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* Add additional styling as needed */
+  }
+  
+  .whiteboard__row {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* Add additional styling as needed */
+  }
+  
+  .whiteboard__row img {
+    max-width: 100px; /* Adjust the size as needed */
+    margin: 10px;
+    /* Add additional styling as needed */
+  }
+  
