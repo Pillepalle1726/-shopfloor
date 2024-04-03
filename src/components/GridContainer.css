@@ -1,0 +1,40 @@
+.grid-item {
+    background-color: #011263;
+}
+
+.grid-container {
+    position: relative;
+    /* ...your existing styles... */
+  }
+  
+  .grid-item::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    width: calc(50% + 16/2); /* where 16 is the gap between your grid items */
+    height: 2px; /* or the thickness you want for your line */
+    background-color: #fff; /* or the color of your line */
+    z-index: 1;
+  }
+  
+  .grid-item:last-child::after,
+  .grid-item:nth-child(3n)::after {
+    content: none; /* Prevents lines from extending beyond the right edge of the grid */
+  }
+  
+  .grid-item::before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: 100%;
+    height: calc(50% + 16/2); /* Adjust the gap size to match your grid */
+    width: 2px; /* or the thickness you want for your line */
+    background-color: #fff; /* or the color of your line */
+    z-index: 1;
+  }
+  
+  .grid-item:nth-last-child(-n+3)::before {
+    content: none; /* Prevents lines from extending below the bottom row */
+  }
+  
