@@ -1,39 +1,39 @@
 import React, { useEffect, useState } from 'react';
 import { Problem } from '../problemInterface';
 import Yellow from './Yellow';
-import { useHoverContext } from './HoverContext';
+
 
 interface GridContainerProps {
     problemArray: Problem[];
+    setId: React.Dispatch<React.SetStateAction<number>>;
 }
 
-const GridContainer: React.FC<GridContainerProps> = ({ problemArray }) => {
-    const { setHoveredText } = useHoverContext(); 
+const GridContainer: React.FC<GridContainerProps> = ({ problemArray, setId }) => {
+
     const [icons, setIcons] = useState<Array<string | undefined>>([]);
 
     useEffect(() => {
-        // Dynamically import icons based on problemArray
         const loadIcons = async () => {
-            const iconPromises = problemArray.map(problem => 
-                import(`../assets/Icons/${problem.icon}`)
+            const iconPromises = problemArray.map(problem =>
+                // Ensure the file extension is explicitly specified
+                import(`../assets/imgs/${problem.icon}.png`) // Assuming all icons are SVG files
                 .then(module => module.default)
                 .catch(error => console.error(`Failed to load icon: ${problem.icon}`, error))
             );
-
+        
             const iconSrcs = await Promise.all(iconPromises);
             setIcons(iconSrcs);
         };
 
         loadIcons();
     }, [problemArray]);
-
     return (
-        <div className='w-full h-full bg-white border-black border-2 rounded-xl'>
+        <div className='w-full h-full bg-white '>
             <div className="grid grid-cols-3 gap-2 w-full max-h-[800px]">
                 {icons.map((iconSrc, index) => (
-                    <div key={index} className="relative flex h-56 items-center justify-center" onClick={() => setHoveredText(problemArray[index]?.description ?? '')} >
+                    <div key={index} className="relative flex h-60 bg-white items-center justify-center border-black border-2 rounded-xl cursor-pointer hover:bg-slate-50" onClick={() => setId(index+1)} >
                         {problemArray[index]?.isProblem && <Yellow visible={true}/>}
-                        {iconSrc && <img src={iconSrc} alt={problemArray[index]?.title} className='h-60 w-auto'/>}
+                        {iconSrc && <img src={iconSrc} alt={problemArray[index]?.title} className='h-auto w-auto'/>}
                     </div>
                 ))}
             </div>

@@ -1,0 +1,15 @@
+Problem: Long improvement cycles for improvement and innovation within the company.
+Slow improvement cycles delay adaptation to changing requirements and hinder agility.
+
+Shortening improvement cycles allows organizations to respond fast to changing requirements, market dynamics, and technological advancements. Moreover it fosters a culture of continuous innovation, resulting in cost savings due to streamlined processes and reduced time-to-market. Shorter cycles allow proactive risk management and help to allocate resources more effectively.
+
+Two things are essential for this. Firstly, employees must be motivated and open to change and secondly, a "fail fast" culture must be introduced and practised. Technologies that make this possible are:
+
+1.Big Data Analytics
+Insights can be gained from data more quickly and recommendations for action can be derived from them.
+2.IoT 
+Interconnectivity enables the interaction of various data-generating activities.
+3.Wearables
+New, relevant technologies motivate employees to use them and get more involved.
+
+Want to find out more? Find your perfect partner for free to tackle your problems and be future-proofed! – Click here

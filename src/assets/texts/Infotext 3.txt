@@ -1,0 +1,17 @@
+Problem: Limited Transparency of Process Performance (Downtime, OEE, etc.): 
+Insufficient insights into downtime, OEE, and other performance metrics hinder process optimization.
+
+Real-time process visualization equips managers and operators with a comprehensive view of the shop floor. By monitoring workstations and tracking material flow, they gain timely insights. Real-time insights allow identification of specific downtime events (e.g., equipment breakdowns, maintenance, changeovers). This means that decisions can be made more quickly, which helps to optimize processes, by fine-tuning cycle times, reducing delays and enhancing throughput. Moreover, detecting deviations early prevents defective units from progressing downstream.
+
+To this end, the focus is on automating manual work processes in order to obtain process data that can be utilised and interpreted. This can be achieved by the following technologies:
+
+1.SCADA System
+Process irregularities can be reduced  leading to less downtimes of machines
+2.Cloud Computing
+IT infrastructure is better accessible and transparent through cloud technology
+3.IoT 
+More insights through more transparency and connected software and tools
+4.Sensors and Actuators
+Improved insights through more and reliable data points
+
+Want to find out more? Find your perfect partner for free to tackle your problems and be future-proofed! – Click here

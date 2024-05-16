@@ -15,19 +15,23 @@ const Navbar: React.FC<NavbarProps> = ({ maturityLevel }) => {
     };
 
     return (
-        <div className="navbar bg-white border-b-2 border-gray-300 h-[120px] fixed w-full flex items-center px-12 ">
+        <div className="navbar bg-white border-b-2 border-gray-300 h-[80px] fixed w-full flex items-center px-12 ">
             <div className="w-full max-w-[1800px] mx-auto flex justify-between ">
             <div className="flex items-center">
-                <div className="text-gray-800 font-semibold bg-gray-200 flex center justify-center items-center px-8 py-4 rounded-xl">
-                    Use case 30: Digital Shop Floor - Problem tackling
+                <div className="text-gray-800 font-semibold bg-blue-400 flex center justify-center items-center px-8 py-2 rounded-xl border-black border-2 hover:bg-blue-100">
+                    Digital Shop Floor
+                </div>
+                <div className="text-gray-800 font-semibold bg-blue-200 flex center justify-center items-center px-8 py-2 rounded-xl ml-4 cursor-pointer border-black border-2 hover:bg-blue-100">
+                    Start
+                </div>
+                <div className="text-gray-800 font-semibold bg-blue-200 flex center justify-center items-center px-8 py-2 rounded-xl ml-4 cursor-pointer border-black border-2 hover:bg-blue-100">
+                    About
                 </div>
             </div>
-
             <div className="flex items-center space-x-4 bg-gray-200 px-8 rounded-xl">
-                <div className="text-gray-800 font-semibold  flex center justify-center items-center  py-4 rounded-xl">
+                <div className="text-gray-800 font-semibold  flex center justify-center items-center  py-2 rounded-xl">
                     Digital Shop Floor Maturity
                 </div>
-
                 <div className="flex justify-between items-center">
                     {Array.from({ length: 10 }, (_, index) => (
                         <span

@@ -1,0 +1,19 @@
+Problem: Lack of data visualization of production process to identify bottlenecks.  
+The lack of process data visualization causes tremendous problems to identify bottlenecks and inefficiencies.
+
+Real-time process visualization equips managers and operators with a comprehensive view of the shop floor. By monitoring workstations and tracking material flow, they gain timely insights. These insights transcend mere data points, which leads to better decision-making at various levels of the production process. With real-time visualization, every facet of production becomes visible — No hidden details or obscured processes. With this, managers no longer navigate through their production blindfolded; instead, they optimize resource allocation, fine-tune schedules, and ensure stringent quality control, by identifying bottlenecks and inefficiencies. Moreover, it enables a better allocation of machinery, labor, and materials, resulting in costs decreases, and productivity increases.
+
+Generating clean and orderly data is crucial. Additionally, it is important to be able to use this data so that it can be visualised and correlations understood. This can be achieved by the following technologies:
+
+1.ERP System
+Visualization of Data from an enterprise perspective
+2.MES System
+Increased transparency of information from the manufacturing process
+3.SCADA System
+Centralized supervisory and control lead to less costs for monitoring
+4.IoT 
+Better planning through more transparency and connected softwares and tools
+5.Sensors and Actuators
+Better planning through more data points
+
+Want to find out more? Find your perfect partner for free to tackle your problems and be future-proofed! – Click here
