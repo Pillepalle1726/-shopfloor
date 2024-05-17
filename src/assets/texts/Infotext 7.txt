@@ -12,8 +12,19 @@ Data can be visualized and conclusions drawn.
 3.Cloud Computing
 Increases the availability and usability of generated data.
 4.IoT 
-Increases cross-linking at shop Floor level, which expands the amount of useable data points
+Increases cross-linking at shop Floor level, which expands the amount of useable data points.
 5.Sensors and Actuators
-Increases the overall amount of data points
+Increases the overall amount of data points.
+
+Relevant Lean Manufacturing principles are:
+1.Process Factors 
+Consisting of pull production, continuous flow, and setup time reduction. 
+2.Control and Human Factors 
+Consisting of TPM, statistical process control, and employee participation. 
+3.Supplier Factors 
+Consisting of supplier feedback, supplier development, and just-in-time delivery. 
+4.Customer Factors 
+Comprising customer involvement.
+
 
 Want to find out more? Find your perfect partner for free to tackle your problems and be future-proofed! – Click here

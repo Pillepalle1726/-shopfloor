@@ -1,7 +1,3 @@
-#root {
-  text-align: center;
-
-}
 
 .logo {
   will-change: filter;
@@ -32,8 +28,4 @@
 
 .card {
   padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
 }

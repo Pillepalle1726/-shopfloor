@@ -6,14 +6,24 @@ Real-time process visualization equips managers and operators with a comprehensi
 Generating clean and orderly data is crucial. Additionally, it is important to be able to use this data so that it can be visualised and correlations understood. This can be achieved by the following technologies:
 
 1.ERP System
-Visualization of Data from an enterprise perspective
+Visualization of Data from an enterprise perspective.
 2.MES System
-Increased transparency of information from the manufacturing process
+Increased transparency of information from the manufacturing process.
 3.SCADA System
-Centralized supervisory and control lead to less costs for monitoring
+Centralized supervisory and control lead to less costs for monitoring.
 4.IoT 
-Better planning through more transparency and connected softwares and tools
+Better planning through more transparency and connected softwares and tools.
 5.Sensors and Actuators
-Better planning through more data points
+Better planning through more data points.
+
+Relevant Lean Manufacturing principles are:
+1.Process Factors 
+Consisting of pull production, continuous flow, and setup time reduction. 
+2.Control and Human Factors 
+Consisting of TPM, statistical process control, and employee participation. 
+3.Supplier Factors 
+Consisting of supplier feedback, supplier development, and just-in-time delivery. 
+4.Customer Factors 
+Comprising customer involvement.
 
 Want to find out more? Find your perfect partner for free to tackle your problems and be future-proofed! – Click here

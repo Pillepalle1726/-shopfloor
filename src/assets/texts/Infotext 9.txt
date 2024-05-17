@@ -10,4 +10,13 @@ Standardized KPIs can be created that are understood by everyone to support Gemb
 2.Big Data Analytics
 Data and information can be compiled in such a way that they can be used collaboratively.
 
+Relevant Lean Manufacturing principles are:
+1.Process Factors 
+Consisting of pull production, continuous flow, and setup time reduction. 
+2.Control and Human Factors 
+Consisting of TPM, statistical process control, and employee participation. 
+3.Supplier Factors 
+Consisting of supplier feedback, supplier development, and just-in-time delivery.
+
+
 Want to find out more? Find your perfect partner for free to tackle your problems and be future-proofed! – Click here

@@ -6,7 +6,6 @@ import { useLocation } from 'react-router-dom';
 import { problems } from './problems';
 import { Problem } from './problemInterface';
 
-
 interface ProblemArray extends Array<Problem> { }
 
 function App() {
@@ -45,12 +44,12 @@ function App() {
           <Navbar maturityLevel={maturityLevel} />
 
           <div className='content-wrapper h-full flex w-full max-w-[1800px] mx-auto mt-[80px]'>
-            <div className='w-2/5  left-0 top-[80px] h-screen border-r-4 border-gray-200 pb-12 px-12 overflow-auto '>
+            <div className='w-2/5  left-0 top-[80px] h-screen pb-12 overflow-auto xl:px-12'>
               <Sidebar id={selectedId}/>
             </div>
             <div
-              className='w-3/5 top-[120px]'
-              style={{ height: `calc(100vh - 120px)` }}
+              className='w-3/5 top-[100px]'
+              style={{ height: `calc(100vh - 100px)` }}
             >
               <Whiteboard problemArray={problemArray} setId={setSelectedId}></Whiteboard>
             </div>

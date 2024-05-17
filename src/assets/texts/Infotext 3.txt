@@ -6,12 +6,20 @@ Real-time process visualization equips managers and operators with a comprehensi
 To this end, the focus is on automating manual work processes in order to obtain process data that can be utilised and interpreted. This can be achieved by the following technologies:
 
 1.SCADA System
-Process irregularities can be reduced  leading to less downtimes of machines
+Process irregularities can be reduced  leading to less downtimes of machines.
 2.Cloud Computing
-IT infrastructure is better accessible and transparent through cloud technology
+IT infrastructure is better accessible and transparent through cloud technology.
 3.IoT 
-More insights through more transparency and connected software and tools
+More insights through more transparency and connected software and tools.
 4.Sensors and Actuators
-Improved insights through more and reliable data points
+Improved insights through more and reliable data points.
+
+Relevant Lean Manufacturing principles are:
+1.Process Factors 
+Consisting of pull production, continuous flow, and setup time reduction. 
+2.Control and Human Factors 
+Consisting of TPM, statistical process control, and employee participation. 
+3.Supplier Factors 
+Consisting of supplier feedback, supplier development, and just-in-time delivery.
 
 Want to find out more? Find your perfect partner for free to tackle your problems and be future-proofed! – Click here

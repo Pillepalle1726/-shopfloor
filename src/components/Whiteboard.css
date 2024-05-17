@@ -1,10 +1,12 @@
 .whiteboard {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    /* Add additional styling as needed */
-  }
+  height: 100%; /* full height */
+  width: 100%; /* full width */
+  display: flex;
+  align-items: center; /* centers vertically */
+  justify-content: center; /* centers horizontally */
+  max-height: 1200px;
+  flex-direction: column; /* ensures flex items are stacked vertically */
+}
   
   .whiteboard__row {
     display: flex;

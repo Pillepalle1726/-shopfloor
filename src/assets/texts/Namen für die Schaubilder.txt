@@ -1,0 +1,9 @@
+Problem 1 = Order Status
+Problem 2 = Data Visualization
+Problem 3 = Process Performance
+Problem 4 = Capturing Errors
+Problem 5 = Employee Enablement
+Problem 6 = Tacit knowledge & Data
+Problem 7 = Process Optmization
+Problem 8 = Improvement Cycles
+Problem 9 = Chances & Challenges

@@ -1,14 +1,33 @@
-Problem:  Merging of tacit knowledge from workers and data from systems/processes.
-Failing to connect tacit knowledge with data worsen decision-making challenges.
+# Merging Tacit Knowledge from Workers and Data from Systems/Processes
 
-By combining practical insights form experienced employees with context-specific data-driven insights, decision-makers gain a comprehensive understanding. This integration enables quicker identification of for example bottlenecks and inefficiencies, allowing workers to streamline operations, boost productivity, and minimize downtime. Moreover, incorporating tacit knowledge like best practices into data ensures an easier knowledge sharing among employees, accelerating their involvement. 
+## Problem: Merging of Tacit Knowledge from Workers and Data from Systems/Processes
 
-Therefore it is important to excel the involvement of employees and the simultaneous integration and utilisation of knowledge. Suitable Technologies therefore are: 
+Failing to connect tacit knowledge with data worsens decision-making challenges.
 
-1.SCADA System
-The evaluation and visualization of knowledge facilitates knowledge triangulation.  
-2.Big Data Analytics
-Given data can be structured to be analyzed and compared. This enables conclusions to be drawn.
+By combining practical insights from experienced employees with context-specific data-driven insights, decision-makers gain a comprehensive understanding. This integration enables quicker identification of bottlenecks and inefficiencies, allowing workers to streamline operations, boost productivity, and minimize downtime. Moreover, incorporating tacit knowledge, such as best practices, into data ensures easier knowledge sharing among employees, accelerating their involvement.
 
+Therefore, it is important to excel in the involvement of employees and the simultaneous integration and utilization of knowledge. Suitable technologies for this are:
 
-Want to find out more? Find your perfect partner for free to tackle your problems and be future-proofed! – Click here
+1. **SCADA System**  
+   The evaluation and visualization of knowledge facilitate knowledge triangulation.
+
+2. **Big Data Analytics**  
+   Given data can be structured to be analyzed and compared, enabling conclusions to be drawn.
+
+## Relevant Lean Manufacturing Principles
+
+Relevant Lean Manufacturing principles to consider include:
+
+1. **Process Factors**  
+   Consisting of pull production, continuous flow, and setup time reduction.
+
+2. **Control and Human Factors**  
+   Consisting of Total Productive Maintenance (TPM), statistical process control, and employee participation.
+
+3. **Supplier Factors**  
+   Consisting of supplier feedback, supplier development, and just-in-time delivery.
+
+4. **Customer Factors**  
+   Comprising customer involvement.
+
+Want to find out more? Find your perfect partner for free to tackle your problems and be future-proofed! – [Click here](https://sfn.chemistree.de/de/community/sfn/frageboegen/industrieunternehmen/register)

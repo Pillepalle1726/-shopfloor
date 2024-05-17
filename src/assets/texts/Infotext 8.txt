@@ -12,4 +12,12 @@ Interconnectivity enables the interaction of various data-generating activities.
 3.Wearables
 New, relevant technologies motivate employees to use them and get more involved.
 
+Relevant Lean Manufacturing principles are:
+1.Process Factors 
+Consisting of pull production, continuous flow, and setup time reduction. 
+2.Control and Human Factors 
+Consisting of TPM, statistical process control, and employee participation. 
+3.Supplier Factors 
+Consisting of supplier feedback, supplier development, and just-in-time delivery.
+
 Want to find out more? Find your perfect partner for free to tackle your problems and be future-proofed! – Click here
