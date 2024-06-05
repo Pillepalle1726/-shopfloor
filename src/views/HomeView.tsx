@@ -19,7 +19,7 @@ export const HomeView: React.FC<HomeViewProps> = ({ selectedId, problemArray, se
                     <div className='w-2/5 left-0 overflow-auto'>
                         <Sidebar id={selectedId} />
                     </div>
-                    <div className='w-3/5 flex items-center justify-center'>
+                    <div className='w-3/5 flex items-center justify-center sticky'>
                         <Whiteboard problemArray={problemArray} setId={setSelectedId}></Whiteboard>
                     </div>
                 </div>
