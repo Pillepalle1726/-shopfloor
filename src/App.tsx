@@ -1,12 +1,17 @@
 import { useState, useEffect } from 'react';
+import { HomeView } from './views/HomeView';
+import { LMPrinciples } from './views/LMPrinciples';
+import { Enabler } from './views/Enabler';
+import { About } from './components/About';
 import Navbar from './components/Navbar';
-import Sidebar from './components/Sidebar';
-import Whiteboard from './components/Whiteboard';
-import { useLocation } from 'react-router-dom';
+import { Routes, Route, useLocation } from "react-router-dom";
 import { problems } from './problems';
 import { Problem } from './problemInterface';
 
 interface ProblemArray extends Array<Problem> { }
+
+
+
 
 function App() {
   const [selectedId, setSelectedId] = useState<number>(0);
@@ -18,13 +23,8 @@ function App() {
   useEffect(() => {
     const decodePattern = (pattern: string) => pattern.split('').map(char => char === 'T');
     const booleanArray = decodePattern(pattern);
-
-    console.log('Decoded booleanArray:', booleanArray);
-
     const trues = booleanArray.filter((bool) => bool).length;
     setMaturityLevel(trues)
-
-    // write a function that takes the problemArray and the booleanArray and returns a new array with the updated isProblem values
     const updateProblemArray = (problemArray: ProblemArray, booleanArray: boolean[]): ProblemArray => {
       return problemArray.map((problem, index) => ({
         ...problem,
@@ -34,28 +34,20 @@ function App() {
 
     const updatedProblemArray = updateProblemArray(problemArray, booleanArray);
     setProblemArray(updatedProblemArray);
-    console.log(updatedProblemArray)
   }, [pattern]);
 
-  console.log(selectedId)
   return (
-    <>
-        <div className='flex flex-col h-screen w-screen '>
-          <Navbar maturityLevel={maturityLevel} />
-
-          <div className='content-wrapper h-full flex w-full max-w-[1800px] mx-auto mt-[80px]'>
-            <div className='w-2/5  left-0 top-[80px] h-screen pb-12 overflow-auto xl:px-12'>
-              <Sidebar id={selectedId}/>
-            </div>
-            <div
-              className='w-3/5 top-[100px]'
-              style={{ height: `calc(100vh - 100px)` }}
-            >
-              <Whiteboard problemArray={problemArray} setId={setSelectedId}></Whiteboard>
-            </div>
-          </div>
-        </div>
-    </>
+    <div className='flex flex-col h-screen w-screen'>
+      <Navbar maturityLevel={maturityLevel} problemArray={problemArray} setSelectedId={setSelectedId} />
+      <div className='wrapper  h-[calc(100vh-80px)] top-[80px] relative flex items-center justify-center'>
+        <Routes>
+          <Route path="*" element={<HomeView selectedId={selectedId} problemArray={problemArray} setSelectedId={setSelectedId} />} />
+          <Route path="/technology-enabler" element={<Enabler />} />
+          <Route path="/lmprinciples" element={<LMPrinciples />} />
+          <Route path="/about" element={<About />} />
+        </Routes>
+      </div>
+    </div>
   );
 }
 

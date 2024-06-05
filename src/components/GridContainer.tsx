@@ -32,14 +32,15 @@ const GridContainer: React.FC<GridContainerProps> = ({ problemArray, setId }) =>
     }
 
     return (
-        <div className='  w-full px-6'>
+        <div className=''>
             <div className="grid grid-cols-3 gap-2">
                 {icons.map((iconSrc, index) => (
-                    <div key={index} className={`relative flex flex-col h-60 bg-white items-center justify-between border-black ${selectedId === index ? 'border-4' : 'border-2'} rounded-xl cursor-pointer hover:bg-slate-50`} onClick={() => handleItemClick(index)} >
+                    <div key={index} className={`relative aspect-square	flex flex-col bg-white items-star justify-between border-grr ${selectedId === index ? 'border-4 border-orr' : 'border-2'} rounded-xl cursor-pointer hover:bg-slate-50`} onClick={() => handleItemClick(index)} >
                         {problemArray[index]?.isProblem && <Yellow visible={true}/>}
-                        {iconSrc && <img src={iconSrc} alt={problemArray[index]?.title} className='h-auto w-auto max-h-52'/>}
-                        <div className="text-center font-bold pb-4">{problemArray[index].title}</div>
+                        {iconSrc && <img src={iconSrc} alt={problemArray[index]?.title} className='h-auto w-auto max-h-72 aspect-square'/>}
+                        <div className="relative bottom-0 text-center font-semibold">{problemArray[index].title}</div>
                     </div>
+                    // <div className="text-center font-bold">{problemArray[index].title}</div>
                 ))}
             </div>
         </div>
