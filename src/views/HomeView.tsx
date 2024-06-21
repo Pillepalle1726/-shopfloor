@@ -14,14 +14,12 @@ interface HomeViewProps {
 export const HomeView: React.FC<HomeViewProps> = ({ selectedId, problemArray, setSelectedId }) => {
     return (
         <>
-            <div className="flex  w-4/5 max-w-[1800px] items-center justify-center">
-                <div className=" flex rounded-lg">
-                    <div className='w-2/5 left-0 overflow-auto'>
-                        <Sidebar id={selectedId} />
-                    </div>
-                    <div className='w-3/5 flex items-center justify-center sticky'>
-                        <Whiteboard problemArray={problemArray} setId={setSelectedId}></Whiteboard>
-                    </div>
+            <div className="flex  w-4/5 max-w-[1800px]">
+                <div className='w-2/5 left-0 top-0'>
+                    <Sidebar id={selectedId} />
+                </div>
+                <div className='w-3/5 flex items-center justify-end max-h-[830px]'>
+                    <Whiteboard problemArray={problemArray} setId={setSelectedId}></Whiteboard>
                 </div>
             </div>
         </>

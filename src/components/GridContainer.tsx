@@ -32,15 +32,18 @@ const GridContainer: React.FC<GridContainerProps> = ({ problemArray, setId }) =>
     }
 
     return (
-        <div className=''>
-            <div className="grid grid-cols-3 gap-2">
+        <div className="h-full w-full flex flex-col">
+            <div className="grid grid-cols-3 grid-rows-3 gap-2.5 max-h-[830px]">
                 {icons.map((iconSrc, index) => (
-                    <div key={index} className={`relative aspect-square	flex flex-col bg-white items-star justify-between border-grr ${selectedId === index ? 'border-4 border-orr' : 'border-2'} rounded-xl cursor-pointer hover:bg-slate-50`} onClick={() => handleItemClick(index)} >
+                    <div 
+                        key={index} 
+                        className={`flex relative flex-col bg-white items-center justify-between border-grr ${selectedId === index ? 'border-4 border-orr' : 'border-2'} rounded-xl cursor-pointer hover:bg-slate-50`} 
+                        onClick={() => handleItemClick(index)}
+                    >
                         {problemArray[index]?.isProblem && <Yellow visible={true}/>}
-                        {iconSrc && <img src={iconSrc} alt={problemArray[index]?.title} className='h-auto w-auto max-h-72 aspect-square'/>}
-                        <div className="relative bottom-0 text-center font-semibold">{problemArray[index].title}</div>
+                        {iconSrc && <img src={iconSrc} alt={problemArray[index]?.title} className='h-[95%] aspect-square'/>}
+                        <div className="relative bottom-[10px] text-center font-semibold w-full">{problemArray[index].title}</div>
                     </div>
-                    // <div className="text-center font-bold">{problemArray[index].title}</div>
                 ))}
             </div>
         </div>
