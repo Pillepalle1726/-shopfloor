@@ -8,7 +8,7 @@ const Sidebar4: React.FC = () => {
             </p>
 
             <div className="mb-4">
-                <h2>Main focus is on monitoring recording with the key technologies:</h2>
+                <h2>Main focus is on monitoring recording, with the key technologies:</h2>
                 <ol className="list-decimal pl-4 text-sm text-gray-500">
                     <li><strong>ERP System:</strong> Visualization of Data for transparent decision making.</li>
                     <li><strong>MES System:</strong> Less documentation through increased transparency of information.</li>
@@ -27,8 +27,8 @@ const Sidebar4: React.FC = () => {
                 </ol>
             </div>
             <div className="mt-4">
-                <a href="#" className="text-indigo-600 hover:text-indigo-800 transition-colors">
-                    Want to find out more? 
+                <p className='text-sm'>Want to find out more?</p>
+                <a href="https://sfn.chemistree.de/en/community/sfn/questionnaires/industrial-companies/register" target="_blank" rel="noopener noreferrer" className="text-indigo-600 hover:text-indigo-800 transition-colors">
                     Find your perfect partner for free to tackle your problems and be future-proofed! – Click here
                 </a>
             </div>

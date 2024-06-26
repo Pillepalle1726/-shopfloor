@@ -29,8 +29,8 @@ const Sidebar2: React.FC = () => {
                 </ul>
             </div>
             <div className="mt-4">
-                <a href="#" className="text-indigo-600 hover:text-indigo-800 transition-colors">
-                    Want to find out more?
+                <p className='text-sm'>Want to find out more?</p>
+                <a href="https://sfn.chemistree.de/en/community/sfn/questionnaires/industrial-companies/register" target="_blank" rel="noopener noreferrer" className="text-indigo-600 hover:text-indigo-800 transition-colors">
                     Find your perfect partner for free to tackle your problems and be future-proofed! – Click here
                 </a>
             </div>

@@ -19,7 +19,7 @@ const Sidebar3: React.FC = () => {
                 </ol>
             </div>
             <div>
-                <h2 className="">Relevant Lean Manufacturing principles are:</h2>
+                <h2 className="">Relevant Lean Manufacturing principles</h2>
                 <ol className="list-decimal pl-4 text-sm text-gray-500">
                     <li><strong>Process Factors:</strong> Consisting of pull production, continuous flow, and setup time reduction.</li>
                     <li><strong>Control and Human Factors:</strong> Consisting of TPM, statistical process control, and employee participation.</li>
@@ -27,8 +27,8 @@ const Sidebar3: React.FC = () => {
                 </ol>
             </div>
             <div className="mt-4">
-                <a href="#" className="text-indigo-600 hover:text-indigo-800 transition-colors">
-                    Want to find out more?
+                <p className='text-sm'>Want to find out more?</p>
+                <a href="https://sfn.chemistree.de/en/community/sfn/questionnaires/industrial-companies/register" target="_blank" rel="noopener noreferrer" className="text-indigo-600 hover:text-indigo-800 transition-colors">
                     Find your perfect partner for free to tackle your problems and be future-proofed! – Click here
                 </a>
             </div>
